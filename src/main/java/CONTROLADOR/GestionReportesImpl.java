@@ -10,7 +10,6 @@ public class GestionReportesImpl implements GestionReportes {
 
     Conexion c = new Conexion();
 
-    // 1️⃣ CELULARES CON STOCK BAJO
     @Override
     public void celularesStockBajo() {
 
@@ -55,7 +54,6 @@ public class GestionReportesImpl implements GestionReportes {
                 .forEach(System.out::println);
     }
 
-    // 2️⃣ TOP 3 CELULARES MÁS VENDIDOS
     @Override
     public void top3MasVendidos() {
 
@@ -92,7 +90,6 @@ public class GestionReportesImpl implements GestionReportes {
                 );
     }
 
-    // 3️⃣ VENTAS TOTALES POR MES
     @Override
     public void ventasTotalesPorMes() {
 

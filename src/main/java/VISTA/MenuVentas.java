@@ -75,10 +75,8 @@ public class MenuVentas {
 
         } while (resp.equalsIgnoreCase("s"));
 
-        // Crear la venta (sin empleado por ahora)
         claseVenta venta = new claseVenta(0, cliente, null);
 
-        // Agregar items
         for (itemVenta it : items) {
             venta.agregarItem(it);
         }

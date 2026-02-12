@@ -15,7 +15,6 @@ public class claseVenta {
 
     private static final double IVA = 0.19;
 
-    // Constructor para crear nueva venta
     public claseVenta(int id, claseClientes cliente, claseEmpleado empleado) {
         this.id = id;
         this.cliente = cliente;
@@ -24,7 +23,6 @@ public class claseVenta {
         this.items = new ArrayList<>();
     }
 
-    // Constructor vacío necesario para JDBC
     public claseVenta() {
         this.items = new ArrayList<>();
     }
